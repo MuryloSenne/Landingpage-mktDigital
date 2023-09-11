@@ -112,3 +112,76 @@ input{
     border: none;
     font-size: 15px;
 }
+
+      /* Benefits section */
+      
+        
+      #key-benefits { 
+        margin-left: -400px;  
+        width: 2000px; 
+        background-image: none; /* Define a imagem de fundo como nenhuma */
+        background: rgb(9,9,121);
+        background: linear-gradient(90deg, rgba(9,9,121,0.9976365546218487) 0%, rgba(170,169,152,1) 45%, rgba(246,247,247,1) 64%);
+        border-radius: 22PX;
+        
+     }
+    
+        #key-benefits h2 {
+        background-color: var(--secondary);
+        text-align: center;
+        padding: 2em;
+        font-size: 45px;
+        color: black;
+        font-family: sans-serif;
+        box-shadow:  5px 18px 27px #000000;
+        
+    }
+    #key-benefits p {
+        font-size: 22px;
+        color: black;
+        box-shadow:  5px 18px 27px #000000;
+        border-radius: 22px;
+        font-weight: bold;
+        
+    }
+    
+    .benefits {
+        display: flex;
+        justify-content: space-around;
+        padding: 4em;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    .benefit {
+        padding: 22PX;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 20%;
+        color: var(--text-tertiary);
+    }
+    
+    .benefit .benefit-img {
+        width: 270px;
+        height: 270px;
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5em;
+        box-shadow:  5px 13px 27px #000000;
+    }
+    
+    #benefit-1 {
+        background-image: url("/img/images.png");
+    }
+    
+    #benefit-2 {
+        background-image: url("/img/nutrição.jpg");
+    }
+    
+    #benefit-3 {
+        background-image: url("/img/acompanhamento.jpg");
+    }
